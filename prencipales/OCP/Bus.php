@@ -4,12 +4,11 @@ namespace SOLID\OCP;
 
 class  Bus extends Vehicle
 {
-
-    /*
-    * @var int
+    /**
+    * @var int $busNumber
     */
     private $busNumber;
-    /*
+    /**
      * @var int
      */
     private $numberOfPassangers;

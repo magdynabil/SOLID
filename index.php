@@ -16,7 +16,7 @@ $bus->setNumberOfPassangers('64');
 $bus->addRoute($route80);
 $bus->addRoute($route90);
 echo$bus->move();*/
-use SOLID\OCP\Bus;
+/*use SOLID\OCP\Bus;
 use SOLID\OCP\Route;
 use SOLID\OCP\Driver;
 use SOLID\OCP\Ship;
@@ -37,6 +37,27 @@ $bus->setMaxmumSpeed('240');
 $bus->addRoute($route80);
 $bus->addRoute($route90);
 $bus->setMovable(new MovingInTheRoads());
-echo$bus->move();
-
-
+echo$bus->move();*/
+require_once __DIR__.DIRECTORY_SEPARATOR.'vendor'.DIRECTORY_SEPARATOR.'autoload.php';
+use SOLID\LSP\Rectangle;
+use SOLID\LSP\Square;
+use SOLID\LSP\LSPViolationType;
+use SOLID\LSP\LSPViolation;
+use SOLID\LSP\LSPViolationSubType;
+use SOLID\LSP\Encrypt;
+use SOLID\LSP\EncryptSubType;
+/*$square=new Square();
+$square->setWidth(5);
+$square->setHeight(10);
+if($square->calculateArea()!==50)
+{
+    echo $square->calculateArea(). ' this is not Liskov Substitution Principle';
+}*/
+/*$violation=new LSPViolationSubType();
+$violation->setSalary(2000);
+$violationExample=new LSPViolation();
+ echo $violationExample->calculateSalaryOfEmployee($violation,333);
+*/
+ $enncrept=new EncryptSubType();
+ $enncrept->setString('magdy');
+ echo $enncrept->encryptString();

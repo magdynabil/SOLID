@@ -4,11 +4,11 @@ namespace SOLID\OCP;
 
 abstract class Vehicle implements IVehicle
 {
-    /*
+    /**
    * @var IMove
    */
     private $movable;
-    /*
+    /**
      * @var string
      */
     private $color;
