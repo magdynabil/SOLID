@@ -4,19 +4,19 @@ namespace SOLID\OCP;
 
 class Trip
 {
-    /*
+    /**
      * @var vehicle
      */
     private $vehicle;
-    /*
+    /**
     * @var string
     */
     private $tripNumber;
-    /*
+    /**
     * @var float
     */
     private $tripPrice;
-    /*
+    /**
     * @var int time duration in minutes
     */
     private $duration;

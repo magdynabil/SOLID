@@ -4,15 +4,15 @@ namespace SOLID\OCP;
 
 class Route
 {
-    /*
+    /**
     * @var string
     */
     private $source;
-    /*
+    /**
     * @var string
     */
     private $destination;
-    /*
+    /**
    * @var int
    */
     private $distance;
